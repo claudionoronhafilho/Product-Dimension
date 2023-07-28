@@ -1,0 +1,263 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* bi_product_dimension
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-07 12:27+0000\n"
+"PO-Revision-Date: 2021-06-07 12:27+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: bi_product_dimension
+#: model:ir.model.fields,field_description:bi_product_dimension.field_account_move_line__m2
+#: model:ir.model.fields,field_description:bi_product_dimension.field_mrp_production__square_meter
+#: model:ir.model.fields,field_description:bi_product_dimension.field_purchase_order_line__square_meter
+#: model:ir.model.fields,field_description:bi_product_dimension.field_sale_order_line__m2
+#: model_terms:ir.ui.view,arch_db:bi_product_dimension.inherit_report_purchaseorder_document
+#: model_terms:ir.ui.view,arch_db:bi_product_dimension.report_invoice_report_inherit_umlilo_module_bi
+#: model_terms:ir.ui.view,arch_db:bi_product_dimension.report_saleorder_document_inherit_umlilo_module_bi
+msgid "(Mt.)2"
+msgstr "(Mt.)2"
+
+#. module: bi_product_dimension
+#: model_terms:ir.ui.view,arch_db:bi_product_dimension.inherit_report_mrporder
+msgid "<strong>(Mt.)2:</strong><br/>"
+msgstr "<strong>(Mt.)2:</strong><br/>"
+
+#. module: bi_product_dimension
+#: model_terms:ir.ui.view,arch_db:bi_product_dimension.inherit_report_mrporder
+msgid "<strong>Height (Mt.):</strong><br/>"
+msgstr "<strong>Hoogte (mt.):</strong><br/>"
+
+#. module: bi_product_dimension
+#: model_terms:ir.ui.view,arch_db:bi_product_dimension.inherit_report_mrporder
+msgid "<strong>width (Mt.):</strong><br/>"
+msgstr "<strong>breedte (Mt.):</strong><br/>"
+
+#. module: bi_product_dimension
+#: model:ir.model.fields,field_description:bi_product_dimension.field_res_company__price_calculation
+#: model:ir.model.fields,field_description:bi_product_dimension.field_res_config_settings__price_calculation
+msgid "Calculate Unit Price based on Height/Width"
+msgstr "Bereken eenheidsprijs op basis van hoogte/breedte"
+
+#. module: bi_product_dimension
+#: model_terms:ir.ui.view,arch_db:bi_product_dimension.res_config_settings_view_form_sale
+msgid "Calculation of Unit Price"
+msgstr "Berekening van eenheidsprijs"
+
+#. module: bi_product_dimension
+#: model:ir.model.fields.selection,name:bi_product_dimension.selection__account_move__dispatch_type__collect
+#: model:ir.model.fields.selection,name:bi_product_dimension.selection__purchase_order__dispatch_type__collect
+#: model:ir.model.fields.selection,name:bi_product_dimension.selection__sale_order__dispatch_type__collect
+msgid "Collect"
+msgstr "Verzamelen"
+
+#. module: bi_product_dimension
+#: model:ir.model,name:bi_product_dimension.model_res_company
+msgid "Companies"
+msgstr "Bedrijven"
+
+#. module: bi_product_dimension
+#: model_terms:ir.ui.view,arch_db:bi_product_dimension.view_company_extend_form
+msgid "Company Registration No."
+msgstr "Bedrijfsregistratienr."
+
+#. module: bi_product_dimension
+#: model:ir.model,name:bi_product_dimension.model_res_config_settings
+msgid "Config Settings"
+msgstr "Configuratie instellingen"
+
+#. module: bi_product_dimension
+#: model:ir.model.fields.selection,name:bi_product_dimension.selection__account_move__dispatch_type__deliver
+#: model:ir.model.fields.selection,name:bi_product_dimension.selection__purchase_order__dispatch_type__deliver
+#: model:ir.model.fields.selection,name:bi_product_dimension.selection__sale_order__dispatch_type__deliver
+msgid "Deliver"
+msgstr "Leveren"
+
+#. module: bi_product_dimension
+#: model:ir.model.fields,field_description:bi_product_dimension.field_account_bank_statement_line__dispatch_type
+#: model:ir.model.fields,field_description:bi_product_dimension.field_account_move__dispatch_type
+#: model:ir.model.fields,field_description:bi_product_dimension.field_account_payment__dispatch_type
+#: model:ir.model.fields,field_description:bi_product_dimension.field_purchase_order__dispatch_type
+#: model:ir.model.fields,field_description:bi_product_dimension.field_sale_order__dispatch_type
+msgid "Dispatch Type"
+msgstr "Verzendtype"
+
+#. module: bi_product_dimension
+#: model:ir.model.fields,field_description:bi_product_dimension.field_account_move__display_name
+#: model:ir.model.fields,field_description:bi_product_dimension.field_account_move_line__display_name
+#: model:ir.model.fields,field_description:bi_product_dimension.field_mrp_production__display_name
+#: model:ir.model.fields,field_description:bi_product_dimension.field_purchase_order__display_name
+#: model:ir.model.fields,field_description:bi_product_dimension.field_purchase_order_line__display_name
+#: model:ir.model.fields,field_description:bi_product_dimension.field_res_company__display_name
+#: model:ir.model.fields,field_description:bi_product_dimension.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:bi_product_dimension.field_sale_order__display_name
+#: model:ir.model.fields,field_description:bi_product_dimension.field_sale_order_line__display_name
+#: model:ir.model.fields,field_description:bi_product_dimension.field_stock_move__display_name
+#: model:ir.model.fields,field_description:bi_product_dimension.field_stock_rule__display_name
+msgid "Display Name"
+msgstr "Schermnaam"
+
+#. module: bi_product_dimension
+#: model:ir.model.fields,field_description:bi_product_dimension.field_stock_rule__height
+msgid "Height"
+msgstr "Hoogte"
+
+#. module: bi_product_dimension
+#: model:ir.model.fields,field_description:bi_product_dimension.field_account_move_line__height
+#: model:ir.model.fields,field_description:bi_product_dimension.field_mrp_production__height
+#: model:ir.model.fields,field_description:bi_product_dimension.field_purchase_order_line__height
+#: model:ir.model.fields,field_description:bi_product_dimension.field_sale_order_line__height
+#: model:ir.model.fields,field_description:bi_product_dimension.field_stock_move__height
+#: model_terms:ir.ui.view,arch_db:bi_product_dimension.inherit_report_purchaseorder_document
+#: model_terms:ir.ui.view,arch_db:bi_product_dimension.report_invoice_report_inherit_umlilo_module_bi
+#: model_terms:ir.ui.view,arch_db:bi_product_dimension.report_saleorder_document_inherit_umlilo_module_bi
+msgid "Height (Mt.)"
+msgstr "Hoogte (mt.)"
+
+#. module: bi_product_dimension
+#: model:ir.model.fields,field_description:bi_product_dimension.field_account_bank_statement_line__hide_net_price
+#: model:ir.model.fields,field_description:bi_product_dimension.field_account_move__hide_net_price
+#: model:ir.model.fields,field_description:bi_product_dimension.field_account_move_line__hide_net_price
+#: model:ir.model.fields,field_description:bi_product_dimension.field_account_payment__hide_net_price
+#: model:ir.model.fields,field_description:bi_product_dimension.field_purchase_order__hide_net_price
+#: model:ir.model.fields,field_description:bi_product_dimension.field_purchase_order_line__hide_net_price
+#: model:ir.model.fields,field_description:bi_product_dimension.field_sale_order__hide_net_price
+#: model:ir.model.fields,field_description:bi_product_dimension.field_sale_order_line__hide_net_price
+msgid "Hide net price"
+msgstr "Verberg netto prijs"
+
+#. module: bi_product_dimension
+#: model:ir.model.fields,field_description:bi_product_dimension.field_account_move__id
+#: model:ir.model.fields,field_description:bi_product_dimension.field_account_move_line__id
+#: model:ir.model.fields,field_description:bi_product_dimension.field_mrp_production__id
+#: model:ir.model.fields,field_description:bi_product_dimension.field_purchase_order__id
+#: model:ir.model.fields,field_description:bi_product_dimension.field_purchase_order_line__id
+#: model:ir.model.fields,field_description:bi_product_dimension.field_res_company__id
+#: model:ir.model.fields,field_description:bi_product_dimension.field_res_config_settings__id
+#: model:ir.model.fields,field_description:bi_product_dimension.field_sale_order__id
+#: model:ir.model.fields,field_description:bi_product_dimension.field_sale_order_line__id
+#: model:ir.model.fields,field_description:bi_product_dimension.field_stock_move__id
+#: model:ir.model.fields,field_description:bi_product_dimension.field_stock_rule__id
+msgid "ID"
+msgstr "ID kaart"
+
+#. module: bi_product_dimension
+#: model:ir.model,name:bi_product_dimension.model_account_move
+msgid "Journal Entry"
+msgstr "Boeking"
+
+#. module: bi_product_dimension
+#: model:ir.model,name:bi_product_dimension.model_account_move_line
+msgid "Journal Item"
+msgstr "Boekingsregel"
+
+#. module: bi_product_dimension
+#: model:ir.model.fields,field_description:bi_product_dimension.field_account_move____last_update
+#: model:ir.model.fields,field_description:bi_product_dimension.field_account_move_line____last_update
+#: model:ir.model.fields,field_description:bi_product_dimension.field_mrp_production____last_update
+#: model:ir.model.fields,field_description:bi_product_dimension.field_purchase_order____last_update
+#: model:ir.model.fields,field_description:bi_product_dimension.field_purchase_order_line____last_update
+#: model:ir.model.fields,field_description:bi_product_dimension.field_res_company____last_update
+#: model:ir.model.fields,field_description:bi_product_dimension.field_res_config_settings____last_update
+#: model:ir.model.fields,field_description:bi_product_dimension.field_sale_order____last_update
+#: model:ir.model.fields,field_description:bi_product_dimension.field_sale_order_line____last_update
+#: model:ir.model.fields,field_description:bi_product_dimension.field_stock_move____last_update
+#: model:ir.model.fields,field_description:bi_product_dimension.field_stock_rule____last_update
+msgid "Last Modified on"
+msgstr "Laatst gewijzigd op"
+
+#. module: bi_product_dimension
+#: model:ir.model.fields,field_description:bi_product_dimension.field_account_move_line__net_price
+#: model:ir.model.fields,field_description:bi_product_dimension.field_purchase_order_line__net_price_pur
+#: model:ir.model.fields,field_description:bi_product_dimension.field_sale_order_line__net_price
+#: model_terms:ir.ui.view,arch_db:bi_product_dimension.inherit_report_purchaseorder_document
+#: model_terms:ir.ui.view,arch_db:bi_product_dimension.report_invoice_report_inherit_umlilo_module_bi
+#: model_terms:ir.ui.view,arch_db:bi_product_dimension.report_saleorder_document_inherit_umlilo_module_bi
+msgid "Net Price"
+msgstr "Nettoprijs"
+
+#. module: bi_product_dimension
+#: model:ir.model.fields.selection,name:bi_product_dimension.selection__res_company__price_calculation__dimension
+msgid "Price Calculation based on Dimension(m2)"
+msgstr "Prijsberekening gebaseerd op Afmeting (m2)"
+
+#. module: bi_product_dimension
+#: model:ir.model.fields.selection,name:bi_product_dimension.selection__res_company__price_calculation__qty
+msgid "Price Calculation based on Qty"
+msgstr "Prijsberekening op basis van aantal"
+
+#. module: bi_product_dimension
+#: model:ir.model,name:bi_product_dimension.model_mrp_production
+msgid "Production Order"
+msgstr "Productieorder"
+
+#. module: bi_product_dimension
+#: model:ir.model,name:bi_product_dimension.model_purchase_order
+msgid "Purchase Order"
+msgstr "Inkooporder"
+
+#. module: bi_product_dimension
+#: model:ir.model,name:bi_product_dimension.model_purchase_order_line
+msgid "Purchase Order Line"
+msgstr "Inkooporderregel"
+
+#. module: bi_product_dimension
+#: model:ir.model,name:bi_product_dimension.model_sale_order
+msgid "Sales Order"
+msgstr "Verkooporder"
+
+#. module: bi_product_dimension
+#: model:ir.model,name:bi_product_dimension.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Verkooporderregel"
+
+#. module: bi_product_dimension
+#: model:ir.model,name:bi_product_dimension.model_stock_move
+msgid "Stock Move"
+msgstr "Voorraadverplaatsting"
+
+#. module: bi_product_dimension
+#: model:ir.model,name:bi_product_dimension.model_stock_rule
+msgid "Stock Rule"
+msgstr "Voorraadregel"
+
+#. module: bi_product_dimension
+#: model:ir.model.fields,field_description:bi_product_dimension.field_res_company__vat_registration_no
+msgid "VAT Registration No."
+msgstr "BTW-registratienr."
+
+#. module: bi_product_dimension
+#: model:ir.model.fields,field_description:bi_product_dimension.field_stock_rule__width
+msgid "Width"
+msgstr "Breedte"
+
+#. module: bi_product_dimension
+#: model:ir.model.fields,field_description:bi_product_dimension.field_account_move_line__width
+#: model:ir.model.fields,field_description:bi_product_dimension.field_mrp_production__width
+#: model:ir.model.fields,field_description:bi_product_dimension.field_purchase_order_line__width
+#: model:ir.model.fields,field_description:bi_product_dimension.field_sale_order_line__width
+#: model:ir.model.fields,field_description:bi_product_dimension.field_stock_move__width
+msgid "Width (Mt.)"
+msgstr "Breedte (mt.)"
+
+#. module: bi_product_dimension
+#: model:ir.model.fields.selection,name:bi_product_dimension.selection__account_move__dispatch_type__courier
+#: model:ir.model.fields.selection,name:bi_product_dimension.selection__purchase_order__dispatch_type__courier
+#: model:ir.model.fields.selection,name:bi_product_dimension.selection__sale_order__dispatch_type__courier
+msgid "courier"
+msgstr "koerier"
+
+#. module: bi_product_dimension
+#: model_terms:ir.ui.view,arch_db:bi_product_dimension.inherit_report_purchaseorder_document
+#: model_terms:ir.ui.view,arch_db:bi_product_dimension.report_invoice_report_inherit_umlilo_module_bi
+#: model_terms:ir.ui.view,arch_db:bi_product_dimension.report_saleorder_document_inherit_umlilo_module_bi
+msgid "width (Mt.)"
+msgstr "breedte (mt.)"
