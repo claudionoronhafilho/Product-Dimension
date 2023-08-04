@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-07 13:00+0000\n"
-"PO-Revision-Date: 2023-08-04 13:32-0300\n"
+"PO-Revision-Date: 2023-08-04 14:20-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -26,62 +26,62 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:bi_product_dimension.report_invoice_report_inherit_umlilo_module_bi
 #: model_terms:ir.ui.view,arch_db:bi_product_dimension.report_saleorder_document_inherit_umlilo_module_bi
 msgid "(Mt.)2"
-msgstr "(Monte) 2"
+msgstr "m2"
 
 #. module: bi_product_dimension
 #: model_terms:ir.ui.view,arch_db:bi_product_dimension.inherit_report_mrporder
 msgid "<strong>(Mt.)2:</strong><br/>"
-msgstr "<strong> (Monte) 2: </strong> <br /"
+msgstr "<strong> m2: </strong> <br /"
 
 #. module: bi_product_dimension
 #: model_terms:ir.ui.view,arch_db:bi_product_dimension.inherit_report_mrporder
 msgid "<strong>Height (Mt.):</strong><br/>"
-msgstr "<strong> Altura (Mt.): </strong> <br/>"
+msgstr "<strong> Altura (m): </strong> <br/>"
 
 #. module: bi_product_dimension
 #: model_terms:ir.ui.view,arch_db:bi_product_dimension.inherit_report_mrporder
 msgid "<strong>width (Mt.):</strong><br/>"
-msgstr "<strong> ancho (Mt.): </strong> <br/>"
+msgstr "<strong> largura (m): </strong> <br/>"
 
 #. module: bi_product_dimension
 #: model:ir.model.fields,field_description:bi_product_dimension.field_res_company__price_calculation
 #: model:ir.model.fields,field_description:bi_product_dimension.field_res_config_settings__price_calculation
 msgid "Calculate Unit Price based on Height/Width"
-msgstr "Calcule el precio unitario en función de la altura / ancho"
+msgstr "Calcular o preço unitário com base na Altura/Largura"
 
 #. module: bi_product_dimension
 #: model_terms:ir.ui.view,arch_db:bi_product_dimension.res_config_settings_view_form_sale
 msgid "Calculation of Unit Price"
-msgstr "Cálculo del precio unitario"
+msgstr "Cálculo do Preço Unitário"
 
 #. module: bi_product_dimension
 #: model:ir.model.fields.selection,name:bi_product_dimension.selection__account_move__dispatch_type__collect
 #: model:ir.model.fields.selection,name:bi_product_dimension.selection__purchase_order__dispatch_type__collect
 #: model:ir.model.fields.selection,name:bi_product_dimension.selection__sale_order__dispatch_type__collect
 msgid "Collect"
-msgstr "Recoger"
+msgstr "Coletar"
 
 #. module: bi_product_dimension
 #: model:ir.model,name:bi_product_dimension.model_res_company
 msgid "Companies"
-msgstr "Compañías"
+msgstr "Empresas"
 
 #. module: bi_product_dimension
 #: model_terms:ir.ui.view,arch_db:bi_product_dimension.view_company_extend_form
 msgid "Company Registration No."
-msgstr "Número de registro de la compañía."
+msgstr "CNPJ"
 
 #. module: bi_product_dimension
 #: model:ir.model,name:bi_product_dimension.model_res_config_settings
 msgid "Config Settings"
-msgstr "Opciones de configuración"
+msgstr "Opções de Configuração"
 
 #. module: bi_product_dimension
 #: model:ir.model.fields.selection,name:bi_product_dimension.selection__account_move__dispatch_type__deliver
 #: model:ir.model.fields.selection,name:bi_product_dimension.selection__purchase_order__dispatch_type__deliver
 #: model:ir.model.fields.selection,name:bi_product_dimension.selection__sale_order__dispatch_type__deliver
 msgid "Deliver"
-msgstr "Entregar"
+msgstr "Entrega"
 
 #. module: bi_product_dimension
 #: model:ir.model.fields,field_description:bi_product_dimension.field_account_bank_statement_line__dispatch_type
@@ -90,7 +90,7 @@ msgstr "Entregar"
 #: model:ir.model.fields,field_description:bi_product_dimension.field_purchase_order__dispatch_type
 #: model:ir.model.fields,field_description:bi_product_dimension.field_sale_order__dispatch_type
 msgid "Dispatch Type"
-msgstr "Tipo de despacho"
+msgstr "Tipo de entrega"
 
 #. module: bi_product_dimension
 #: model:ir.model.fields,field_description:bi_product_dimension.field_account_move__display_name
@@ -105,7 +105,7 @@ msgstr "Tipo de despacho"
 #: model:ir.model.fields,field_description:bi_product_dimension.field_stock_move__display_name
 #: model:ir.model.fields,field_description:bi_product_dimension.field_stock_rule__display_name
 msgid "Display Name"
-msgstr "Nombre mostrado"
+msgstr "Mostrar Nome"
 
 #. module: bi_product_dimension
 #: model:ir.model.fields,field_description:bi_product_dimension.field_stock_rule__height
@@ -122,7 +122,7 @@ msgstr "Altura"
 #: model_terms:ir.ui.view,arch_db:bi_product_dimension.report_invoice_report_inherit_umlilo_module_bi
 #: model_terms:ir.ui.view,arch_db:bi_product_dimension.report_saleorder_document_inherit_umlilo_module_bi
 msgid "Height (Mt.)"
-msgstr "Altura (Mt.)"
+msgstr "Altura (m)"
 
 #. module: bi_product_dimension
 #: model:ir.model.fields,field_description:bi_product_dimension.field_account_bank_statement_line__hide_net_price
@@ -134,7 +134,7 @@ msgstr "Altura (Mt.)"
 #: model:ir.model.fields,field_description:bi_product_dimension.field_sale_order__hide_net_price
 #: model:ir.model.fields,field_description:bi_product_dimension.field_sale_order_line__hide_net_price
 msgid "Hide net price"
-msgstr "Ocultar precio neto"
+msgstr "Ocultar preço líquido"
 
 #. module: bi_product_dimension
 #: model:ir.model.fields,field_description:bi_product_dimension.field_account_move__id
@@ -149,7 +149,7 @@ msgstr "Ocultar precio neto"
 #: model:ir.model.fields,field_description:bi_product_dimension.field_stock_move__id
 #: model:ir.model.fields,field_description:bi_product_dimension.field_stock_rule__id
 msgid "ID"
-msgstr "IDENTIFICACIÓN"
+msgstr "ID"
 
 #. module: bi_product_dimension
 #: model:ir.model,name:bi_product_dimension.model_account_move
@@ -234,7 +234,7 @@ msgstr "Regla de Inventario"
 #. module: bi_product_dimension
 #: model:ir.model.fields,field_description:bi_product_dimension.field_res_company__vat_registration_no
 msgid "VAT Registration No."
-msgstr "Número de registro de IVA"
+msgstr "CNPJ"
 
 #. module: bi_product_dimension
 #: model:ir.model.fields,field_description:bi_product_dimension.field_stock_rule__width
